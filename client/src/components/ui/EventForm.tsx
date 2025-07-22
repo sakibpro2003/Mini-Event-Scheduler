@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { createEvent } from "@/services/api";
 import { useState } from "react";
@@ -11,7 +12,7 @@ export default function EventForm({ onAdd }: Props) {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [notes, setNotes] = useState("");
-  const [loading, setLoading] = useState(false); // ✅ loader state
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,8 +27,8 @@ export default function EventForm({ onAdd }: Props) {
       setTime("");
       setNotes("");
       onAdd();
-    } catch (error) {
-      alert("Failed to create event. Please try again.");
+    } catch (error: any) {
+      alert(`Failed to create event. Please try again: ${error}`);
     } finally {
       setLoading(false);
     }
