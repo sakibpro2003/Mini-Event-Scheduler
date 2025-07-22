@@ -103,11 +103,12 @@ Update an event's archived status to true.
 Delete an event by ID
 
 ## 🙌 Author
+**MD Sakib Prodhan**
 
-**MD Sakib Prodhan**  
 [Portfolio](https://my-portfolio-three-iota-17.vercel.app/) | [GitHub](https://github.com/sakibpro2003) | [LinkedIn](https://linkedin.com/in/sakibprodhan00) | sakibprodhan2003@gmail.com
 
 
-🌐 Live Demo
-[Live Demo](https://mini-event-schedular-frontend.vercel.app/)
+## 🌐 Live Demo
+
+[Click here to open the live app](https://mini-event-schedular-frontend.vercel.app/)
 
