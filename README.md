@@ -109,4 +109,4 @@ Delete an event by ID
 
 
 🌐 Live Demo
-Live Link: [https://your-frontend.vercel.app](https://mini-event-schedular-frontend.vercel.app/)
+Live Link: [Click](https://mini-event-schedular-frontend.vercel.app/)
